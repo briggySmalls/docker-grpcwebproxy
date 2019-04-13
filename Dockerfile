@@ -6,4 +6,5 @@ from alpine
 RUN apk --no-cache add ca-certificates
 WORKDIR /
 COPY --from=builder /go/bin/grpcwebproxy .
-CMD ["/grpcwebproxy"]
+ENTRYPOINT ["/grpcwebproxy"]
+CMD []
