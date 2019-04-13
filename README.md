@@ -2,6 +2,8 @@
 
 github.com/improbable-eng/grpc-web
 
+Includes builds for ARM7 (appropriate for Raspberry Pi)
+
 ## Usage
 ```shell
 docker run --net="host" -v "${PWD}/certs:/certs" --rm -it mozgiii/docker-grpcwebproxy \
